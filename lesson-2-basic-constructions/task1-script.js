@@ -1,7 +1,7 @@
 'use strict'
 
 function findVowels () {
-    var userStr = prompt('Введите строку: ', '');
+    var userStr = prompt('Введите строку на русском языке: ', '');
     var vowels = ['а', 'е', 'ё', 'и', 'о', 'у', 'ы', 'э', 'ю', 'я'];
     var count = 0;
 
