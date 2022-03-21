@@ -1,0 +1,81 @@
+/*
+.clockFace {
+    width: 400px;
+    height: 400px;
+    border-radius: 200px;
+    background-color: #FCCA66;
+}
+
+.hourCircle {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #48B382;
+    position: absolute;
+    font-size: 15px;
+    text-align: center;
+    line-height: 15px;
+}
+
+.clockDiv {
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 10px;
+    color: dodgerblue;
+}
+*/
+
+#clock {
+    width: 400px;
+    height: 400px;
+    border-radius: 200px;
+    background-color: #FCCA66;
+}
+
+.hours {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #48B382;
+    position: absolute;
+    font-size: 25px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.hoursArrow {
+    width: 10px;
+    height: 90px;
+    border-radius: 10px;
+    position: absolute;
+    background-color: rgba(1, 1, 1, 0.7);
+}
+
+.minutesArrow {
+    width: 7px;
+    height: 120px;
+    border-radius: 10px;
+    position: absolute;
+    background-color: rgba(1, 1, 1, 0.7);
+}
+
+.secondsArrow {
+    width: 3px;
+    height: 145px;
+    border-radius: 10px;
+    position: absolute;
+    background-color: rgba(1, 1, 1, 0.7);
+}
+
+.digitalClock {
+    width: 200px;
+    position: absolute;
+    text-align: center;
+    line-height: 25px;
+    font-size: 25px;
+    color: black;
+}
