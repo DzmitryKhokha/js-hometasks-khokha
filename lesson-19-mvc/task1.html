@@ -1,0 +1,50 @@
+<!doctype html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Homework</title>
+    <style>
+      body {
+        margin: 2em auto;
+        width: 90%;
+        font-family: "Open Sans", serif;
+        font-size: 0.8em;
+      }
+      .manage-drinks > * {
+        display: block;
+      }
+      .manage-drinks .drink-info {
+        margin: 0.5em auto;
+        width: 95%;
+        max-width: 320px;
+        color: black;
+      }
+      input {
+        margin: 0.5em auto;
+        padding: 0.5em 1em;
+        width: 95%;
+        max-width: 320px;
+        border: 1px solid slategrey;
+        color: white;
+        background: darkslategray;
+        cursor: pointer;
+      }
+      input:hover {
+        color: #eee;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="manage-drinks">
+      <input type='button' value='Добавить напиток' onclick='addDrink()'>
+      <input type='button' value='Показать информацию о напитке' onclick='showDrinkInfo()'>
+      <input type='button' value='Удалить напиток' onclick='removeDrink()'>
+      <input type='button' value='Показать меню напитков' onclick='showDrinksMenu()'>
+      <div id="message" class="drink-info"></div>
+    </div>
+    <script src="hashstorage.js"></script>
+  </body>
+</html>
